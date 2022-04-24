@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+
+{% block head %} 
+
+{% endblock %}
+
+{% block body %} 
+    <div class="center">
+    <div class="generalForm">
+    <h1>When was the last year where...</h1>
+    <div class="form">
+    <form method="POST" action="/">
+        <p>The day</p>
+        <input type="date" name="party" min="2022-01-01" max="2022-12-31">
+        <p>in</p>
+        <div class = "location">
+        <select name="location">
+            <option value = "Newark Liberty">Newark Liberty, New Jersey</option>
+            <option value = "Long Beach">Long Beach, California</option>
+            <option value = "Dallas">Dallas, Texas</option>
+            <option value = "Philadelphia">Philadelphia, Pennsylvania</option>
+            <option value = "Miami Beach">Miami Beach, Florida</option>
+        </select>
+        </div>
+
+        <div class = "field">
+        <select name="field">
+            <option value = "minTemp">Had A Daily Minimum Temperature</option>
+            <option value = "maxTemp">Had A Daily Maximum Temperature</option>
+            <option value = "snow">Had Snowfall</option>
+        </select>
+        </div>
+
+        <p>that was</p>
+        <div class="lastline">
+        <select name="operator">
+            <option value = "<="><=</option>
+            <option value = ">=">>=</option>
+        </select>
+
+        <input type="text" id="number" name="user_number"><p>?</p>
+        </div>
+        <button type="submit">Search -></button>
+    </form>
+    </div>
+     
+    <div class = "result">
+    <h3>
+        {{ year }}
+    </h3>
+    </div> 
+    </div>
+    
+    </div>
+{% endblock %}

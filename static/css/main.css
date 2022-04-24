@@ -1,0 +1,51 @@
+body {
+    font-family: sans-serif;
+    background-color: lightblue;
+    font-size: 18;
+}
+h1 {
+    border: 3px solid cornflowerblue;
+    background-color: darkseagreen;
+    border-radius: 25px;
+    margin-top: 0;
+    padding-bottom: 0;
+    font-family: sans-serif;
+    font-size: 48;
+}
+.center{
+    text-align: center;
+}
+.generalForm {
+    border: 33px solid cornflowerblue;
+    border-radius: 25px;
+    background-color: lightgreen;
+    margin-left: 32%;
+    margin-right: 32%; 
+    padding-bottom: 5%; 
+}
+.form{
+    padding-top: 0;
+    border-radius: 25px;
+    margin-top: 0;
+    background-color: lightgreen;
+}
+.field{
+    height: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.location{
+    height: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.result{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10%;
+}
+
+.lastline{
+    display: flex-box;
+}
