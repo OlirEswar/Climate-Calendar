@@ -5,7 +5,7 @@ import requests
 import json
 import numpy as np
 
-Token = 'PHHWLWIuBXyHOitsEdWaRvVmByYhnYeQ'
+Token = #input Token/environment variable
 station_id = 'GHCND:USW00014734'
 station_id_2 = 'GHCND:USW00023129'
 
